@@ -1,0 +1,85 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+body {
+  font-family: 'Roboto';
+}
+
+.comment {
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 0.7rem;
+}
+
+.name {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 43px;
+}
+
+.name > h3 {
+  margin: 0;
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  background-color: #f97316;
+  color: white;
+}
+
+.comment p {
+  padding: 0;
+  margin: 0;
+  color: #7e858e;
+  padding-left: 50px;
+  font-size: 13px;
+}
+
+.likeDelete{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.like, .delete {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 0.4rem;
+  color: #7e858e;
+  background: none;
+}
+
+.like:hover, .delete:hover{
+  cursor: pointer;
+}

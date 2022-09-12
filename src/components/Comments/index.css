@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.app-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  padding: 1rem 5rem;  
+}
+.container{
+  padding: 2rem;
+  /* gap: 4rem; */
+  display: flex;
+  gap: 4rem; 
+}
+.input-container{
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+gap: 0.5rem;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  gap:1rem
+}
+
+li{
+  list-style: none;
+}
+input{
+    height: 1.5rem;
+    width: 15rem;
+}
+textarea{
+    width: 15rem;
+}
+button{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: #0284c7;
+    border-width: 0;
+    color: white;
+    border-radius: 0.5rem;
+
+        
+    
+}
+hr{
+    width: 100%;
+}
+
+.Comments{
+  border-top: 1px solid lightgrey;
+  padding-top: 1rem;  
+  padding-left: 2rem;
+}
+
+.CommentsCounter{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.CommentsCounter > .Counter{
+  width: 30px;
+  height: 30px;
+  display: grid;
+  color: white;
+  border-radius: 5px;
+  place-content: center;
+}
